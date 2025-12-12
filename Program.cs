@@ -112,7 +112,7 @@ namespace Dice_game
                     Console.Clear();
                 }
 
-            } while (userInput == "Y");
+            } while (userInput.ToUpper() == "Y");
 
             Console.WriteLine("Thanks for playing! Bye!");
             Console.WriteLine("----------------------------------------------------------");
